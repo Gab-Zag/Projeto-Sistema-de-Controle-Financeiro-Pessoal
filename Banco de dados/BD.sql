@@ -9,8 +9,8 @@ Create TABLE if NOT EXISTS client(
 
 CREATE TABLE if NOT EXISTS category(
 	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-	name VARCHAR(50),
-	type tipo_categoria,
+	name VARCHAR(50) NOT NULL,
+	type tipo_categoria NOT NULL,
 	client_id int NOT NULL,
 
 	CONSTRAINT fk_category_client
@@ -19,11 +19,11 @@ CREATE TABLE if NOT EXISTS category(
 		ON DELETE CASCADE
 );
 
-CREATE TABLE if not EXISTS transact(
+CREATE TABLE if not EXISTS transactions(
 	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-	description VARCHAR(100),
-	value DECIMAL(12,2),
-	type tipo_categoria,
+	description VARCHAR(100) NOT NULL,
+	amount DECIMAL(12,2) NOT NULL,
+	type tipo_categoria NOT NULL,
 	transaction_date TIMESTAMP,
 	category_id int NOT NULL,
 	client_id int NOT NULL,
