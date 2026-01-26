@@ -19,7 +19,7 @@ CREATE TABLE if NOT EXISTS category(
 		ON DELETE CASCADE
 );
 
-CREATE TABLE if not EXISTS transaction(
+CREATE TABLE if not EXISTS transact(
 	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 	description VARCHAR(100),
 	value DECIMAL(12,2),
