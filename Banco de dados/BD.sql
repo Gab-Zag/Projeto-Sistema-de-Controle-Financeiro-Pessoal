@@ -21,9 +21,9 @@ CREATE TABLE if NOT EXISTS category(
 
 CREATE TABLE if not EXISTS transact(
 	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-	description VARCHAR(100),
-	value DECIMAL(12,2),
-	type tipo_categoria,
+	description VARCHAR(100) NOT NULL,
+	value DECIMAL(12,2) NOT NULL,
+	type tipo_categoria NOT NULL,
 	transaction_date TIMESTAMP,
 	category_id int NOT NULL,
 	client_id int NOT NULL,
