@@ -48,7 +48,7 @@ email
 senha
 ```
 
-## Cadegoria
+## Categoria
 ```
 id
 nome
