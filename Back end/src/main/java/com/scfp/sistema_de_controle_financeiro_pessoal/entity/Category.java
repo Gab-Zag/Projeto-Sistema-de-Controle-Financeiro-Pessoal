@@ -36,4 +36,12 @@ public class Category {
     public String getType(){return this.type;}
 
     public Client getClient(){return this.client;}
+
+    public void setId(Integer id) {this.id = id;}
+
+    public void setName(String name) {this.name = name;}
+
+    public void setType(String type) {this.type = type;}
+
+    public void setClient(Client client) {this.client = client;}
 }

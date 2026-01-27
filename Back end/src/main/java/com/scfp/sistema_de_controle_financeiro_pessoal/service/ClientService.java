@@ -5,8 +5,6 @@ import com.scfp.sistema_de_controle_financeiro_pessoal.entity.Client;
 import com.scfp.sistema_de_controle_financeiro_pessoal.repository.ClientRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-
 @Service
 public class ClientService {
 
