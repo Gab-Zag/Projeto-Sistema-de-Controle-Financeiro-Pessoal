@@ -93,14 +93,14 @@ Validation -> Garante que os dados que chegam na sua API estão corretos antes d
 POST /auth/register
 POST /auth/login
 
-GET /categorias
+GET /categorias -> /categorias/{id}
 POST /categorias
 PUT /categorias/{id}
 DELETE /categorias/{id}
 
-GET /transacoes
+GET /transacoes -> /transacoes/{id}
 POST /transacoes
-PUT /transacoes/{id}
+PUT /transacoes/{id}c
 DELETE /transacoes/{id}
 
 GET /saldo

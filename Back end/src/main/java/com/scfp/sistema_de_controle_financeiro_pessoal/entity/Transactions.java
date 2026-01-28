@@ -19,7 +19,7 @@ public class Transactions {
     @Column(nullable = false, precision = 12, scale = 2)
     private BigDecimal amount;
 
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "tipo_categoria")
     private String type;
 
     @Column(name = "transaction_date")
@@ -57,4 +57,18 @@ public class Transactions {
     public Category getCategory(){return this.category;}
 
     public Client getClient(){return this.client;}
+
+    public void setId(Integer id){this.id = id;}
+
+    public void setDescription(String description){this.description = description;}
+
+    public void setAmount(BigDecimal amount){this.amount = amount;}
+
+    public void setType(String type){this.type = type;}
+
+    public void setTransactionDate (LocalDateTime transactionDate){this.transactionDate = transactionDate;}
+
+    public void setCategory (Category category){this.category = category;}
+
+    public void setClient (Client client){this.client = client;}
 }

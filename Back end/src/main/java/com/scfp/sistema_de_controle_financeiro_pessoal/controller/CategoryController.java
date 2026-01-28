@@ -18,7 +18,6 @@ public class CategoryController {
 
     @GetMapping
     public ResponseEntity getCategories(){
-        // Removemos o @RequestBody daqui
         return ResponseEntity.ok(this.categoryService.getCategory(null));
     }
 
