@@ -112,3 +112,71 @@ Receita -> valor positivo
 Usuário só acessa seus próprios dados
 Categoria só pode ser usada pelo dono
 ```
+# Front-end
+## Telas:
+### Login Screen
+```
+Email & Password Fields
+Login Button
+Link to Sign up
+```
+### Dashboard
+```
+Balance Display
+Income & Expenses
+Recent Transactions List
+```
+### Transactions List
+```
+List of Transactions
+Edit & Delete Options
+```
+### Add Transaction
+```
+Category List
+Add/ Edit Category
+```
+### Profile
+```
+User Info & Avatar
+Profile Options
+```
+### Arquitetura
+```
+models
+services
+screens
+widgets
+core
+main
+```
+### Evoluções futuras
+```
+Filtro por mês
+Exportar CSV
+Gráficos
+Meta de gastos
+Notificações
+```
+
+# Design
+### Colors:
+```
+#49OE2 (Primary Blue)
+#F56FA (Light Background)
+#333333 (Dark Text)
+#AAAAAA (Grey Text)
+```
+
+### Typography
+```
+Font: SF Pro
+Headings: Bold
+Body: Regular
+```
+
+### Icons & Images:
+```
+Minimal icons
+Simple finance illustrations
+```
