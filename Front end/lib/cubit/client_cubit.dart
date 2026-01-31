@@ -1,6 +1,7 @@
-import 'package:flutter_application_1/cubit/client_state.dart';
-import 'package:flutter_application_1/models/client.dart';
-import 'package:flutter_application_1/service/client_service.dart';
+import 'client_state.dart';
+import '../models/client.dart';
+import '../service/client_service.dart';
+
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ClientCubit extends Cubit<ClientState> {

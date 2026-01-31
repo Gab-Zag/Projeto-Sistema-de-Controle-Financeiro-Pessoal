@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_application_1/models/client.dart';
+import '../models/client.dart';
 
 abstract class ClientState extends Equatable {
   @override
